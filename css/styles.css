@@ -1,0 +1,118 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Poppins', 'Sans-Serif';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', 'Sans-Serif';
+  font-weight: bolder;
+}
+
+.nav-container {
+  padding: 3% 14%;
+  font-family: 'MuseoModerno', 'Sans-Serif';
+}
+
+.navbar-brand.navbar-center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+
+.container-fluid {
+  text-align: center;
+  width: 100%;
+  padding: 2% !important;
+}
+
+.container-fluid1 {
+  text-align: center;
+  padding: 3% 0;
+  margin-top: 5%;
+}
+
+#user-todo {
+  width: 40%;
+  margin: 2% 0 2% 0;
+  height: 50px;
+  text-align: center;
+  background-color: #0000000a !important;
+  color: #00000a !important;
+  border-color: none;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+li {
+  list-style-type: none;
+  background: #3f3f44;
+  background: radial-gradient(circle, rgba(63, 63, 68, 0.202118) 0%, rgba(63, 63, 68, 0.199317) 100%);
+  border-radius: 50px;
+  margin: 1% 0;
+}
+
+.ul-list {
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+.card {
+  width: 40%;
+  opacity: 0.9;
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  padding: 2% 5%;
+  border: none !important;
+  background-color: #0000000a !important;
+}
+
+.card-text {
+  color: grey;
+}
+
+.btn {
+  margin-top: 5%;
+  border-radius: 50px !important;
+}
+
+#footer {
+  font-size: 1rem;
+  text-align: center;
+  background-color: #3f3f44;
+  color: #F4F6FF;
+}
+
+#footer .footer-icon {
+  margin: 2% 1%;
+  color: #F4F6FF;
+  text-decoration: none;
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+  #user-todo {
+    width: 80%;
+  }
+  .card {
+    width: 80%;
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
+  }
+}
+/*# sourceMappingURL=styles.css.map */
